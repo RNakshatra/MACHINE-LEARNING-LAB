@@ -1,0 +1,37 @@
+DATASET  FOR  CONCEPT LEARNING TASK :,,,,,,,,,,,,,
+Task:  To Identify whether a student will fail or Not in the semester. (Grade C and Grade D considered as Fail),,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Roll No.,Name,Attendance,,M–II,English,Eng. Chemistry,PPS–II,EGD,ECS,Eng. Chemistry Lab,PPS-II Lab,CGPA,Result
+3501,A RAJKUMAR,Not Regular,,B+,A,A,A+,B,O,A,A+,B,PASS
+3502,A SAI RAHUL REDDY,Regular,,A+,A,A+,A+,A,O,O,O,A+,PASS
+3503,A.DEEPTHI CHOWDARY,Regular,,O,A+,O,A+,A,O,O,O,A+,PASS
+3504,A. HEMANTH KUMAR,Regular,,F,B+,B,B,B+,O,A,A+,A,PASS
+3505,A. SOWMYA REDDY,Average,,O,A+,O,O,A,O,O,A+,B+,PASS
+3506,ANUSRI JULAKANTI,Average,,B+,B+,A,A,B+,O,A+,A+,A,PASS
+3507,AVANAGANTI AMULYA REDDY,Average,,A+,A+,A+,A+,A+,O,O,O,O,PASS
+3508,BANDREDDY SRI SAI LOHITH,Regular,,A,A,B+,C,B,O,A,A+,A+,PASS
+3509,BEJUGAM RENU KRUSHIYA,Regular,,A+,O,A,O,B,O,O,O,O,PASS
+3510,BHRUGUBANDA VIJAIYA SAI MOHANA,Below Average,,O,A,A,B+,A+,O,O,O,B+,PASS
+3511,BURRA SWETHA,Average,,A+,A,A+,A,A+,O,A+,A+,A,PASS
+3512,CHIDUMULLA MANIDEEP REDDY,Not Regular,,B+,B+,B+,F,B+,A+,A,A,D,FAIL
+3513,CHINTA SUJITHA REDDY,Below Average,,A+,A+,B,A,B,O,A+,A+,A,PASS
+3514,DEVARAKONDA SRUTHI,Regular,,O,A+,A+,A+,A+,O,O,A+,A+,PASS
+3515,DEVENDRA PRASAD SREERAM NAMANI,Not Regular,,B+,A,A,B+,C,A+,A,A,B,PASS
+3516,EEDULA JANANISATVIK VARASIDDHARDH,Not Regular,,A+,A+,A,B+,B,O,B+,A,A+,PASS
+3517,GAJJALA JAHNAVI,Regular,,O,A,A+,A,A+,O,O,A+,B+,PASS
+3518,GUMMADI SAI NIKITHA,Average,,O,A+,A+,B+,A,O,O,A+,B+,PASS
+3519,JUKANTI RAKESH KUMAR,Regular,,O,A,A,A+,A+,O,O,A+,A+,PASS
+3520,K R VENKAT REDDY,Not Regular,,O,A+,A+,A,A,O,O,O,A,PASS
+,,,,,,,,,,,,,
+,Number of Training Examples - 20,,,,,,,,,,,,
+,"Number of Attributes=10(attendance,M–II,English,Eng. Chemistry,PPS–II,EGD,ECS,Eng. Chemistry Lab,PPS-II Lab,CGPA)",,,,,,,,,,,,
+,Target Function- Result,,,,,,,,,,,,
+,Positive Example- Pass,,,,,,,,,MARKS,GRADE,,
+,Negative Example- Fail,,,,,,,,,91-100,O,,
+,,,,,,,,,,81-90,A+,,
+,Numerical Values to categorize the attendance,,,,,,,,,71-80,A,,
+,75% - Regular,,,,,,,,,61-70,B+,,
+,65% - Average,,,,,,,,,51-60,B,,
+,50-65% - Below Average,,,,,,,,,41-50,C,,
+,Below 50%- Not regular,,,,,,,,,31-40,D,,
